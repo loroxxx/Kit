@@ -37,11 +37,13 @@ public class Test {
 
     @org.junit.Test
     public void test() {
-        List<Employee> employees = Arrays.asList(new Employee("Alice", "London", 150), new Employee("Bob", "London", 150), new Employee("Charles", "New York", 160), new Employee("Dorothy", "Hong Kong", 190));
+       /* List<Employee> employees = Arrays.asList(new Employee("Alice" , "London", 150), new Employee("Bob", "London", 150), new Employee("Charles", "New York", 160), new Employee("Dorothy", "Hong Kong", 190));
 
         assertTrue( employees.stream().collect(Collectors.summingInt(Employee::getSales))==650);
 
          employees.stream().collect(Collectors.counting());
+*/
+
 
     }
 
